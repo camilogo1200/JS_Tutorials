@@ -1,0 +1,39 @@
+<html>
+
+<body>
+
+    Please Open developer tools (Javascript Console) on your browser to see the scripts runnning
+
+
+    <script>
+        /*
+         *   The following code shows how you can Store values in javascript variables.
+         */
+
+        /*
+         * When you declare a javascript variable with the var word preceding the var name automaticaly is a local variable
+         * otherwise it becomes part of the global scope.
+         */
+
+        variable = " hello ";
+        console.log(variable);
+        a();
+
+        function a() {
+            var myVar = " hello String ";
+            myGlobarVar = "Hi! global var"
+            console.log(variable);
+            console.log(myVar);
+
+        }
+
+        console.log(myGlobarVar);
+
+        /*
+         * my var outside the function
+         */
+        console.log(myVar);
+    </script>
+</body>
+
+</html>

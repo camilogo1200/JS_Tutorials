@@ -1,0 +1,43 @@
+<html>
+
+<body>
+
+    Please Open developer tools (Javascript Console) on your browser to see the scripts runnning
+
+
+    <script>
+        /*
+         *  There are a nice automatic conversion made by javascript engine as you shall see.
+         */
+
+        var string = "Examples of Automatic Conversions.";
+        console.info(string);
+
+        //null
+        console.log(8  +  null);
+        console.log(8  *  null);
+        console.log(8  -  null);
+        console.log(8  /  null);
+
+        //
+        console.log("5" - 1);
+
+        //NaN (Not a Number)
+        console.log("five" - 2);
+
+        console.log(false == 0);
+        console.log(true == 1);
+
+        console.log(null == undefined);
+        //see the following!!
+        console.log(null == 0);
+        console.log(0 == null);
+
+        console.info("To avoid Automatic Conversion types you should use === or !==")
+        console.log(0 === null);
+        console.log(null === undefined);
+
+    </script>
+</body>
+
+</html>
